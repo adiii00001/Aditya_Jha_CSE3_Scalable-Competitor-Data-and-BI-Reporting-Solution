@@ -42,10 +42,6 @@ This project delivers a scalable framework for collecting, processing, and analy
 - **Embedded Reporting**: Metabase, Apache Superset, Google Data Studio
 - **Custom Dashboards**: React, D3.js, Plotly
 
-### 🧠 Machine Learning / Analytics *(optional)*
-- Scikit-learn, XGBoost, TensorFlow
-- Time Series Forecasting: ARIMA, Facebook Prophet
-
 ### 🛡️ Infrastructure / DevOps
 - Docker, Kubernetes
 - CI/CD: GitHub Actions, Jenkins
