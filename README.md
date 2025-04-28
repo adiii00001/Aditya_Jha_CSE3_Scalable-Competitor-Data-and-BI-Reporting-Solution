@@ -24,23 +24,22 @@ This project delivers a scalable framework for collecting, processing, and analy
 ## 🛠️ Technologies Used
 
 ### 📥 Data Collection / Ingestion
-- **Web Scraping Tools**: Scrapy, BeautifulSoup, Selenium, Puppeteer
-- **APIs**: REST APIs, GraphQL, 3rd-party data sources (e.g., SimilarWeb, SEMrush)
+- **Web Scraping Tools**: Scrapy
+- **APIs**: REST APIs, GraphQL
 
 ### 🗃️ Data Storage
-- **Cloud Storage**: Amazon S3, Google Cloud Storage
-- **Databases**: PostgreSQL, MySQL, MongoDB, Elasticsearch
-- **Data Warehouses**: Snowflake, Google BigQuery, Amazon Redshift
+- **Cloud Storage**: Azure,Google Cloud Storage
+- **Databases**: MySQL
+
 
 ### ⚙️ Data Processing & ETL
-- **ETL Tools**: Apache Airflow, Talend, Fivetran
+- **ETL Tools**: Talend
 - **Data Transformation**: dbt (Data Build Tool)
-- **Data Pipelines**: Apache Kafka, AWS Kinesis, Apache Spark, Pandas, Dask
+- **Data Pipelines**: Pandas
 
 ### 📊 BI & Reporting
-- **Visualization Tools**: Tableau, Power BI, Looker
+- **Visualization Tools**: Tableau, Power BI
 - **Embedded Reporting**: Metabase, Apache Superset, Google Data Studio
-- **Custom Dashboards**: React, D3.js, Plotly
 
 ### 🛡️ Infrastructure 
 - PowerApps	To create the mobile-friendly application.
