@@ -16,7 +16,7 @@ This project delivers a scalable framework for collecting, processing, and analy
 
 ## 🎥 Link to Video Explanation
 [Click here to watch the project demo](https://krmangalameduin-my.sharepoint.com/:v:/g/personal/2301010177_krmu_edu_in/EfxH9HOFmYREmkTJ5U4ho4MBIe0kei5-DIWXRDkfUpI5NA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CIrPlO)  
-*(Replace `#` with your actual video link.)*
+
 
 ---
 
