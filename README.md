@@ -42,11 +42,12 @@ This project delivers a scalable framework for collecting, processing, and analy
 - **Embedded Reporting**: Metabase, Apache Superset, Google Data Studio
 - **Custom Dashboards**: React, D3.js, Plotly
 
-### 🛡️ Infrastructure / DevOps
-- Docker, Kubernetes
-- CI/CD: GitHub Actions, Jenkins
-- Infrastructure as Code: Terraform, AWS CloudFormation
-- Cloud Platforms: AWS, Google Cloud Platform, Microsoft Azure
+### 🛡️ Infrastructure 
+- PowerApps	To create the mobile-friendly application.
+- Azure Blob Storage	To store uploaded product images securely.
+- Azure SQL Server To store structured competitor product data.
+- Connectors PowerApps > Azure Blob Storage and PowerApps > SQL Server.
+
 
 
 ---
