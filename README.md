@@ -21,12 +21,37 @@ This project delivers a scalable framework for collecting, processing, and analy
 ---
 
 ## ⚙️ Technologies Used
-- **Backend:** Node.js / Python *(choose based on your stack)*
-- **Database:** MongoDB / PostgreSQL / MySQL
-- **Data Processing:** Pandas / SQLAlchemy / ETL Pipelines
-- **BI Tools:** Power BI / Tableau / Custom Dashboards
-- **APIs:** REST APIs / Web Scraping Frameworks
-- **Deployment/Cloud:** AWS / Azure / Heroku *(if used)*
+## 🛠️ Technologies Used
+
+### 📥 Data Collection / Ingestion
+- **Web Scraping Tools**: Scrapy, BeautifulSoup, Selenium, Puppeteer
+- **APIs**: REST APIs, GraphQL, 3rd-party data sources (e.g., SimilarWeb, SEMrush)
+
+### 🗃️ Data Storage
+- **Cloud Storage**: Amazon S3, Google Cloud Storage
+- **Databases**: PostgreSQL, MySQL, MongoDB, Elasticsearch
+- **Data Warehouses**: Snowflake, Google BigQuery, Amazon Redshift
+
+### ⚙️ Data Processing & ETL
+- **ETL Tools**: Apache Airflow, Talend, Fivetran
+- **Data Transformation**: dbt (Data Build Tool)
+- **Data Pipelines**: Apache Kafka, AWS Kinesis, Apache Spark, Pandas, Dask
+
+### 📊 BI & Reporting
+- **Visualization Tools**: Tableau, Power BI, Looker
+- **Embedded Reporting**: Metabase, Apache Superset, Google Data Studio
+- **Custom Dashboards**: React, D3.js, Plotly
+
+### 🧠 Machine Learning / Analytics *(optional)*
+- Scikit-learn, XGBoost, TensorFlow
+- Time Series Forecasting: ARIMA, Facebook Prophet
+
+### 🛡️ Infrastructure / DevOps
+- Docker, Kubernetes
+- CI/CD: GitHub Actions, Jenkins
+- Infrastructure as Code: Terraform, AWS CloudFormation
+- Cloud Platforms: AWS, Google Cloud Platform, Microsoft Azure
+
 
 ---
 
