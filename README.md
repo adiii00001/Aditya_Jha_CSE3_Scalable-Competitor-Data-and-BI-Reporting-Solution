@@ -20,7 +20,7 @@ This project delivers a scalable framework for collecting, processing, and analy
 
 ---
 
-## ⚙️ Technologies Used
+
 ## 🛠️ Technologies Used
 
 ### 📥 Data Collection / Ingestion
