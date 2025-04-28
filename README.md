@@ -2,8 +2,10 @@
 This project provides a scalable framework for gathering, processing, and analyzing competitor data to power business intelligence (BI) reporting. It supports modular data ingestion, customizable reporting pipelines, and integration with analytics dashboards.
 
 ## 🧑‍💻 Team Members
-- [Your Name]  
-*(Add other names if applicable.)*
+- [Aditya Jha]  
+*(Shubh Rai
+Prakhar Singh
+Chetan Rawat)*
 
 ---
 
