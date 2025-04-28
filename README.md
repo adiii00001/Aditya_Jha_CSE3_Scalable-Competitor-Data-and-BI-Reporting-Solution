@@ -3,9 +3,9 @@ This project provides a scalable framework for gathering, processing, and analyz
 
 ## 🧑‍💻 Team Members
 - [Aditya Jha]  
-*(Shubh Rai
-Prakhar Singh
-Chetan Rawat)*
+-[Shubh Rai]
+-[Prakhar Singh]
+-[Chetan Rawat]
 
 ---
 
