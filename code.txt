@@ -1,0 +1,552 @@
+Screens:
+  Landing Page:
+    Properties:
+      Fill: =RGBA(116, 116, 116, 1)
+      LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+    Children:
+      - Rectangle1:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(246, 88, 16, 1)
+            Height: =191
+            Width: =1364
+      - TextInput1:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(241, 244, 249, 1)
+            Default: ="Competitor Intelligence Collection Application"
+            Fill: =RGBA(246, 88, 16, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =104
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            Size: =40
+            Width: =1260
+            X: =42
+            Y: =52
+      - Icon1:
+          Control: Classic/Icon@2.5.0
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(241, 244, 249, 1)
+            Icon: =Icon.Information
+            OnSelect: =Navigate(Information_Page, ScreenTransition.Fade)
+            X: =1302
+      - Image1:
+          Control: Image@2.2.3
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Height: =185
+            Image: ='church-dwight-logo'
+            Width: =206
+            X: =543
+            Y: =252
+      - Button1:
+          Control: Classic/Button@2.2.0
+          Properties:
+            BorderColor: =ColorFade(Self.Fill, -15%)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(246, 88, 16, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =97
+            HoverBorderColor: =ColorFade(Self.BorderColor, 20%)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
+            OnSelect: =Navigate(Add_Information, ScreenTransition.Fade)
+            PressedBorderColor: =Self.Fill
+            PressedColor: =Self.Fill
+            PressedFill: =Self.Color
+            Text: ="Add Information"
+            Width: =235
+            X: =412
+            Y: =498
+      - Button1_2:
+          Control: Classic/Button@2.2.0
+          Properties:
+            BorderColor: =ColorFade(Self.Fill, -15%)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(246, 88, 16, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =97
+            HoverBorderColor: =ColorFade(Self.BorderColor, 20%)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
+            PressedBorderColor: =Self.Fill
+            PressedColor: =Self.Fill
+            PressedFill: =Self.Color
+            Text: ="Business Intelligence"
+            Width: =235
+            X: =682
+            Y: =498
+
+Screens:
+  Information_Page:
+    Properties:
+      Fill: =RGBA(116, 116, 116, 1)
+      LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+    Children:
+      - Rectangle1_1:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(246, 88, 16, 1)
+            Height: =191
+            Width: =1364
+            X: =2
+      - TextInput1_1:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(241, 244, 249, 1)
+            Default: ="Tool Overview"
+            Fill: =RGBA(246, 88, 16, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            Size: =30
+            Width: =313
+            X: =514
+            Y: =26
+      - Image1_1:
+          Control: Image@2.2.3
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Height: =97
+            Image: ='church-dwight-logo'
+            Width: =153
+            X: =616
+            Y: =650
+      - Label2:
+          Control: Label@2.5.1
+          Properties:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Height: =106
+            Size: =20
+            Text: ="The Competitor Intelligence Collection App helps sales teams capture and manage competitor product information easily — including structured details and product images — for smarter decision-making."
+            Width: =1322
+            X: =31
+            Y: =75
+      - Label4:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            Height: =375
+            Size: =24
+            Text: |-
+              ="
+              "
+            Width: =1187
+            X: =76
+            Y: =242
+      - Arrow2:
+          Control: Arrow@2.3.0
+          Variant: BackArrow
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(209, 232, 178, 1)
+            OnSelect: =Navigate('Landing Page', ScreenTransition.Fade)
+            X: =26
+            Y: =19
+
+Screens:
+  Add_Information:
+    Properties:
+      Fill: =RGBA(116, 116, 116, 1)
+      LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+    Children:
+      - Rectangle1_2:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(246, 88, 16, 1)
+            Height: =191
+            Width: =1364
+      - TextInput1_2:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(241, 244, 249, 1)
+            Default: ="Competitor Intelligence Collection Application"
+            Fill: =RGBA(246, 88, 16, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =104
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            Size: =40
+            Width: =1260
+            X: =42
+            Y: =52
+      - chkNewProduct:
+          Control: Classic/CheckBox@2.1.0
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            CheckboxBorderColor: =RGBA(0, 18, 107, 1)
+            CheckmarkFill: =RGBA(0, 0, 0, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =73
+            HoverColor: =RGBA(0, 18, 107, 1)
+            Text: ="New Product"
+            Width: =171
+            X: =60
+            Y: =230
+      - chkNewPrice:
+          Control: Classic/CheckBox@2.1.0
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            CheckboxBorderColor: =RGBA(0, 18, 107, 1)
+            CheckmarkFill: =RGBA(0, 0, 0, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =73
+            HoverColor: =RGBA(0, 18, 107, 1)
+            Text: ="New Price"
+            Width: =171
+            X: =245
+            Y: =230
+      - chkNewSize:
+          Control: Classic/CheckBox@2.1.0
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            CheckboxBorderColor: =RGBA(0, 18, 107, 1)
+            CheckmarkFill: =RGBA(0, 0, 0, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =73
+            HoverColor: =RGBA(0, 18, 107, 1)
+            Text: ="New Size"
+            Width: =171
+            X: =416
+            Y: =230
+      - Label5:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =45
+            Size: =15
+            Text: ="Product Image"
+            Underline: =true
+            Width: =342
+            X: =828
+            Y: =267
+      - Label5_1:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Text: ="Category"
+            X: =60
+            Y: =355
+      - txtCategory:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Default: =
+            Font: =Font.'Open Sans'
+            HintText: ="Insert Category Here"
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            X: =245
+            Y: =355
+      - Label5_2:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Text: ="Sub-Category"
+            X: =60
+            Y: =414
+      - txtSubCategory:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Default: =
+            Font: =Font.'Open Sans'
+            HintText: ="Insert Sub-Category Here"
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            X: =245
+            Y: =414
+      - Label5_3:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Text: ="Brand"
+            X: =60
+            Y: =475
+      - txtBrand:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Default: =
+            Font: =Font.'Open Sans'
+            HintText: ="Insert Brand Here"
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            X: =245
+            Y: =475
+      - Label5_4:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Text: ="Retailer"
+            X: =60
+            Y: =537
+      - txtRetailer:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Default: =
+            Font: =Font.'Open Sans'
+            HintText: ="Insert Retailer Name Here"
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            X: =245
+            Y: =537
+      - Label5_5:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Text: ="Retail Price"
+            X: =60
+            Y: =602
+      - txtRetailPrice:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Default: =
+            Font: =Font.'Open Sans'
+            HintText: ="$$$"
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            Width: =85
+            X: =245
+            Y: =602
+      - Label5_6:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            Text: ="Size"
+            Width: =71
+            X: =396
+            Y: =602
+      - txtSize:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Default: =
+            Font: =Font.'Open Sans'
+            HintText: ="Add Size"
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            Width: =85
+            X: =480
+            Y: =602
+      - Label5_7:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Text: ="Description"
+            X: =60
+            Y: =664
+      - txtProductDescription:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Default: =
+            Font: =Font.'Open Sans'
+            HintText: ="Add Details Here"
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            X: =245
+            Y: =664
+      - Image3:
+          Control: Image@2.2.3
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Height: =69
+            Image: ='church-dwight-logo'
+            Width: =71
+            X: =669
+            Y: =691
+      - uplProductImage:
+          Control: Image@2.2.3
+          Group: uplProduct
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Height: =318
+            Image: =If(IsBlank(AddMediaButton2.Media), SampleImage, AddMediaButton2.Media)
+            ImagePosition: =ImagePosition.Fill
+            Width: =480
+            X: =708
+            Y: =AddMediaButton2.Y
+      - AddMediaButton2:
+          Control: AddMedia@2.2.1
+          Group: uplProduct
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Height: =318
+            Size: =25
+            Width: =480
+            X: =708
+            Y: =334
+      - Arrow3:
+          Control: Arrow@2.3.0
+          Variant: BackArrow
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            X: =16
+            Y: =13
+      - Button2:
+          Control: Classic/Button@2.2.0
+          Properties:
+            BorderColor: =ColorFade(Self.Fill, -15%)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(246, 88, 16, 1)
+            Font: =Font.'Open Sans'
+            HoverBorderColor: =ColorFade(Self.BorderColor, 20%)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
+            OnSelect: "=// Step 1: Validate mandatory fields\r\nIf(\r\n    IsBlank(txtBrand.Text) || IsBlank(txtProductName.Text),\r\n    Notify(\"Please fill out the mandatory fields.\", NotificationType.Error),\r\n    \r\n    // Step 2: Set ProductType from selected checkboxes\r\n    Set(\r\n        varProductType,\r\n        Concat(\r\n            Filter(\r\n                [\r\n                    {Label: \"New Product\", Value: chkNewProduct.Value},\r\n                    {Label: \"New Price\", Value: chkNewPrice.Value},\r\n                    {Label: \"New Size\", Value: chkNewSize.Value}\r\n                ],\r\n                Value = true\r\n            ),\r\n            Label,\r\n            \", \"\r\n        )\r\n    );\r\n\r\n    // Step 3: Upload Image to Azure Blob Storage\r\n    Set(\r\n        varImageFileUrl,\r\n        AzureBlobStorage.CreateFile(\r\n            \"competitor-product-images\",  // Replace with your container name\r\n            txtProductName.Text & \".jpg\",  // File name (You can change this logic)\r\n            uplProductImage.Image // The image control in PowerApps\r\n        )\r\n    );\r\n\r\n    // Step 4: Save Data in Azure SQL Database\r\n    Patch(\r\n        'CompetitorInsights.CompetitorInformation',\r\n        Defaults('CompetitorInsights.CompetitorInformation'),{\r\n            ProductType: varProductType,\r\n            Category: txtCategory.Text,\r\n            SubCategory: txtSubCategory.Text,\r\n            Retailer: txtRetailer.Text,\r\n            RetailPrice: txtRetailPrice.Text,\r\n            Size: txtSize.Text,\r\n            ProductDescription: txtProductDescription.Text,\r\n            DateCaptured: Now(),\r\n            CapturedBy: User().FullName,\r\n            ProductImage: varImageFileUrl.Name\r\n        };\r\n    );\r\n\r\n    // Step 5: Notify Success\r\n    Notify(\"Competitor product captured successfully!\", NotificationType.Success);\r\n\r\n    UpdateContext({ uplProductImage: Blank() });\r\n\r\n    // Step 6: Reset Fields\r\n    Reset(txtBrand);\r\n    Reset(txtProductName);\r\n    Reset(txtCategory);\r\n    Reset(txtSubCategory);\r\n    Reset(txtRetailer);\r\n    Reset(txtRetailPrice);\r\n    Reset(txtSize);\r\n    Reset(txtProductDescription);\r\n    Reset(chkNewPrice);\r\n    Reset(chkNewProduct);\r\n    Reset(chkNewSize);\r\n    Reset(AddMediaButton2);\r\n    \r\n    Navigate(Add_Success, ScreenTransition.Fade)\r\n\r\n)\r\n"
+            PressedBorderColor: =Self.Fill
+            PressedColor: =Self.Fill
+            PressedFill: =Self.Color
+            Text: ="Submit"
+            X: =138
+            Y: =717
+      - txtProductName:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Default: =
+            Font: =Font.'Open Sans'
+            HintText: ="Insert Category Here"
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            X: =245
+            Y: =294
+      - Label5_8:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Text: ="Product Name"
+            X: =60
+            Y: =294
+
+Screens:
+  Add_Success:
+    Properties:
+      Fill: =RGBA(116, 116, 116, 1)
+      LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+    Children:
+      - Rectangle1_3:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Fill: =RGBA(246, 88, 16, 1)
+            Height: =191
+            Width: =1364
+      - TextInput1_3:
+          Control: Classic/TextInput@2.3.2
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(241, 244, 249, 1)
+            Default: ="Competitor Intelligence Collection Application"
+            Fill: =RGBA(246, 88, 16, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =104
+            HoverBorderColor: =RGBA(0, 18, 107, 1)
+            HoverFill: =RGBA(186, 202, 226, 1)
+            Size: =40
+            Width: =1260
+            X: =42
+            Y: =52
+      - Image1_2:
+          Control: Image@2.2.3
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Height: =185
+            Image: ='church-dwight-logo'
+            Width: =206
+            X: =543
+            Y: =252
+      - Button1_5:
+          Control: Classic/Button@2.2.0
+          Properties:
+            BorderColor: =ColorFade(Self.Fill, -15%)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(246, 88, 16, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Bold
+            Height: =106
+            HoverBorderColor: =ColorFade(Self.BorderColor, 20%)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
+            PressedBorderColor: =Self.Fill
+            PressedColor: =Self.Fill
+            PressedFill: =Self.Color
+            Text: ="Thanks for your inputs, the information added successfully"
+            Width: =370
+            X: =484
+            Y: =467
+      - Timer1:
+          Control: Timer@2.1.0
+          Properties:
+            AutoStart: =true
+            BorderColor: =ColorFade(Self.Fill, -15%)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =ColorFade(Self.BorderColor, 70%)
+            DisabledColor: =ColorFade(Self.Fill, 90%)
+            DisabledFill: =ColorFade(Self.Fill, 70%)
+            Duration: =5000
+            Fill: =RGBA(56, 96, 178, 1)
+            Font: =Font.'Open Sans'
+            Height: =0
+            HoverBorderColor: =ColorFade(Self.BorderColor, 20%)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
+            OnTimerEnd: =Navigate(Add_Information, ScreenTransition.Fade)
+            PressedBorderColor: =Self.Fill
+            PressedColor: =Self.Fill
+            PressedFill: =Self.Color
+            Width: =0
+            X: =126
+            Y: =370
