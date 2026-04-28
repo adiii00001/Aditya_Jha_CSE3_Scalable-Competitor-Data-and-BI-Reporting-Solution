@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('Star.png', 0)
+img = cv2.imread('image.jpeg', 0)
 f = np.fft.fft2(img)
 fshift = np.fft.fftshift(f)
 rows, cols = img.shape
