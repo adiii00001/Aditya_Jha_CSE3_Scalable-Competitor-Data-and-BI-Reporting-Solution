@@ -1,7 +1,7 @@
 import cv2
 
 # Step 1: Acquire the image from file
-image = cv2.imread('Star.png')
+image = cv2.imread('image.jpeg')
 
 # Step 2: Check if image is successfully loaded
 if image is None:
