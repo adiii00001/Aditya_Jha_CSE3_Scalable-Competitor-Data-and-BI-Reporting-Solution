@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread('Star.png')
+img = cv2.imread('image.jpeg')
 rows, cols = img.shape[:2]
 M_trans = np.float32([[1,0,50],[0,1,50]])
 translated = cv2.warpAffine(img, M_trans, (cols, rows))
