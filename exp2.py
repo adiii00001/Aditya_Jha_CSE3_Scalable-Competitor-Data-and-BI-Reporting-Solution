@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the image
-image = cv2.imread('Star.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('image.jpeg', cv2.IMREAD_GRAYSCALE)
 
 # Function for sampling
 def sampling(img, factor):
