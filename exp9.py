@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('Star.png', 0)
+img = cv2.imread('image.jpeg', 0)
 flat = img.flatten()
 
 # Run Length Encoding
