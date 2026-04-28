@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('Star.png', 0)
+img = cv2.imread('image.jpeg', 0)
 
 # Gaussian Noise
 gauss = img + np.random.normal(0, 20, img.shape)
