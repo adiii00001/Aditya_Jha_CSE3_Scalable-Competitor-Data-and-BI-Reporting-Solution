@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('Star.png', 0)
+img = cv2.imread('image.jpeg', 0)
 noise = 20 * np.sin(np.linspace(0,50,img.shape[1]))
 noise = noise.reshape(1,-1)
 noisy = img + noise
